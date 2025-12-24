@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Four-Panel Comic Storyboard Prompt</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .panel-section {
+      background: #f9fafb;
+      border-left: 4px solid #3b82f6;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    code {
+      background: #f3f4f6;
+      padding: 0.2rem 0.4rem;
+      border-radius: 0.25rem;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 0.9em;
+    }
+    .copy-btn {
+      transition: all 0.2s;
+    }
+    .copy-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .copy-btn.copied {
+      background-color: #10b981;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+  <div class="container mx-auto max-w-4xl px-4 py-8">
+    <div class="flex justify-end mb-4">
+      <button 
+        id="copyBtn" 
+        class="copy-btn px-4 py-2 bg-blue-600 text-white rounded-lg font-medium shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+        onclick="copyPureText()"
+      >
+        📋 Copy Prompt（复制 Prompt）
+      </button>
+    </div>
+    <h1 class="text-4xl font-bold mb-6 text-gray-900">
+      Four-Panel Comic Storyboard Prompt
+    </h1>
+    
+    <div class="mb-8">
+      <p class="text-lg leading-relaxed text-gray-700">
+        Create a black-and-white four-panel comic storyboard based on a story structured with the {Story} narrative method, compressed into four poetic visual beats.
+      </p>
+    </div>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">Style</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+        <li>Japanese manga style</li>
+        <li>Clean black ink line art, high contrast</li>
+        <li>Minimalist backgrounds with emotional focus</li>
+        <li>Expressive characters and body language</li>
+        <li>Clear, readable speech bubbles with short dialogue</li>
+        <li>No color</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">Format</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+        <li>One page, four panels (2×2 grid)</li>
+        <li>Panel order explicitly marked with small Arabic numerals inside each panel:
+          <ul class="list-circle list-inside ml-6 mt-2 space-y-1">
+            <li>Panel 1: number "1" at the top-right corner</li>
+            <li>Panel 2: number "2" at the top-left corner</li>
+            <li>Panel 3: number "3" at the bottom-right corner</li>
+            <li>Panel 4: number "4" at the bottom-left corner</li>
+          </ul>
+        </li>
+        <li>Numbers should be visible but not cover faces or key actions</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">Narrative Compression (4 Panels)</h2>
+      
+      <div class="panel-section">
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Panel 1 – Setup + Trigger</h3>
+        <p class="text-sm text-gray-600 mb-2 italic">(Seven Steps: Opening + Inciting Moment)</p>
+        <p class="text-gray-700 mb-1"><strong>Depict:</strong> [角色的日常状态 + 即将发生变化的征兆]</p>
+        <p class="text-gray-700 mb-1"><strong>Dialogue:</strong> a short, natural line expressing the situation or hinting at change</p>
+        <p class="text-gray-700"><strong>Mood:</strong> calm surface, subtle tension</p>
+      </div>
+
+      <div class="panel-section">
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Panel 2 – Conflict + Inner Struggle</h3>
+        <p class="text-sm text-gray-600 mb-2 italic">(Seven Steps: Conflict)</p>
+        <p class="text-gray-700 mb-1"><strong>Depict:</strong> [角色犹豫、误判或陷入困境]</p>
+        <p class="text-gray-700 mb-1"><strong>Dialogue:</strong> internal thought or emotional reaction</p>
+        <p class="text-gray-700"><strong>Mood:</strong> pressure, confusion</p>
+      </div>
+
+      <div class="panel-section">
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Panel 3 – Turning Point + Consequence</h3>
+        <p class="text-sm text-gray-600 mb-2 italic">(Seven Steps: Turning Point + Consequence)</p>
+        <p class="text-gray-700 mb-1"><strong>Depict:</strong> [关键行动发生，结果显现]</p>
+        <p class="text-gray-700 mb-1"><strong>Dialogue:</strong> decisive or surprised utterance</p>
+        <p class="text-gray-700"><strong>Mood:</strong> dramatic, high contrast</p>
+      </div>
+
+      <div class="panel-section">
+        <h3 class="text-xl font-semibold mb-2 text-gray-800">Panel 4 – Resolution + Poetic Aftertaste</h3>
+        <p class="text-sm text-gray-600 mb-2 italic">(Seven Steps: Resolution + Poetic Ending)</p>
+        <p class="text-gray-700 mb-1"><strong>Depict:</strong> [结局或象征性画面，留下余味]</p>
+        <p class="text-gray-700 mb-1"><strong>Dialogue:</strong> minimal final line, reflective or ironic</p>
+        <p class="text-gray-700"><strong>Mood:</strong> quiet, poetic silence</p>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">Dialogue Guidelines</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+        <li>1 short line per panel</li>
+        <li>Simple, spoken language</li>
+        <li>Dialogue supports the image, does not explain everything</li>
+        <li>Avoid long narration</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">Camera & Composition</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+        <li><strong>Panel 1:</strong> wide or medium shot</li>
+        <li><strong>Panel 2:</strong> close-up or emotional framing</li>
+        <li><strong>Panel 3:</strong> dynamic angle or action shot</li>
+        <li><strong>Panel 4:</strong> minimal composition, strong negative space</li>
+      </ul>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 text-gray-800">Technical Requirements</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+        <li>Aspect ratio: manga comic page</li>
+        <li>Professional storyboard quality</li>
+      </ul>
+    </section>
+
+    <div class="mt-8 p-6 bg-gray-100 rounded-lg border-2 border-gray-300">
+      <p class="text-lg font-semibold text-gray-800 mb-2">Story Variable:</p>
+      <code class="text-gray-700">Story: {Story}</code>
+    </div>
+  </div>
+
+  <script>
+    async function copyPureText() {
+      const copyBtn = document.getElementById('copyBtn');
+      const originalText = copyBtn.innerHTML;
+      
+      try {
+        // Fetch content from prompt.txt
+        const response = await fetch('https://leeduckgo.com/prompts/sigemanhua.txt');
+        if (!response.ok) {
+          throw new Error('Failed to fetch the prompt');
+        }
+        const text = await response.text();
+        
+        // Copy to clipboard
+        await navigator.clipboard.writeText(text);
+        
+        // Visual feedback
+        copyBtn.innerHTML = '✓ Copied!';
+        copyBtn.classList.add('copied');
+        
+        setTimeout(() => {
+          copyBtn.innerHTML = originalText;
+          copyBtn.classList.remove('copied');
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy text: ', err);
+        
+        // Fallback: try to fetch again and use execCommand
+        try {
+          const response = await fetch('./prompt.txt');
+          if (!response.ok) {
+            throw new Error('Failed to fetch prompt.txt');
+          }
+          const text = await response.text();
+          
+          const textArea = document.createElement('textarea');
+          textArea.value = text;
+          textArea.style.position = 'fixed';
+          textArea.style.opacity = '0';
+          document.body.appendChild(textArea);
+          textArea.select();
+          
+          document.execCommand('copy');
+          document.body.removeChild(textArea);
+          
+          copyBtn.innerHTML = '✓ Copied!';
+          copyBtn.classList.add('copied');
+          setTimeout(() => {
+            copyBtn.innerHTML = originalText;
+            copyBtn.classList.remove('copied');
+          }, 2000);
+        } catch (fallbackErr) {
+          alert('Failed to copy. Please check if prompt.txt exists in the same directory.');
+          console.error('Fallback also failed: ', fallbackErr);
+        }
+      }
+    }
+  </script>
+</body>
+</html>

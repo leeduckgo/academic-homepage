@@ -1,0 +1,61 @@
+Create a black-and-white four-panel comic storyboard based on a story structured with the {Story} narrative method, compressed into four poetic visual beats.
+
+Style:
+– Japanese manga style
+– Clean black ink line art, high contrast
+– Minimalist backgrounds with emotional focus
+– Expressive characters and body language
+– Clear, readable speech bubbles with short dialogue
+– No color
+
+Format:
+– One page, four panels (2×2 grid)
+– Panel order explicitly marked with small Arabic numerals inside each panel:
+  • Panel 1: number “1” at the top-right corner
+  • Panel 2: number “2” at the top-left corner
+  • Panel 3: number “3” at the bottom-right corner
+  • Panel 4: number “4” at the bottom-left corner
+– Numbers should be visible but not cover faces or key actions
+
+Narrative Compression (4 Panels):
+
+Panel 1 – Setup + Trigger  
+(Seven Steps: Opening + Inciting Moment)  
+Depict: [角色的日常状态 + 即将发生变化的征兆]  
+Dialogue: a short, natural line expressing the situation or hinting at change  
+Mood: calm surface, subtle tension  
+
+Panel 2 – Conflict + Inner Struggle  
+(Seven Steps: Conflict)  
+Depict: [角色犹豫、误判或陷入困境]  
+Dialogue: internal thought or emotional reaction  
+Mood: pressure, confusion  
+
+Panel 3 – Turning Point + Consequence  
+(Seven Steps: Turning Point + Consequence)  
+Depict: [关键行动发生，结果显现]  
+Dialogue: decisive or surprised utterance  
+Mood: dramatic, high contrast  
+
+Panel 4 – Resolution + Poetic Aftertaste  
+(Seven Steps: Resolution + Poetic Ending)  
+Depict: [结局或象征性画面，留下余味]  
+Dialogue: minimal final line, reflective or ironic  
+Mood: quiet, poetic silence  
+
+Dialogue Guidelines:
+– 1 short line per panel
+– Simple, spoken language
+– Dialogue supports the image, does not explain everything
+– Avoid long narration
+
+Camera & Composition:
+– Panel 1: wide or medium shot
+– Panel 2: close-up or emotional framing
+– Panel 3: dynamic angle or action shot
+– Panel 4: minimal composition, strong negative space
+
+Aspect ratio: manga comic page
+Professional storyboard quality
+---
+Story: {Story}
